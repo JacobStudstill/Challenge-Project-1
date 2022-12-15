@@ -1,13 +1,16 @@
+/* Universal style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +28,7 @@ header h1 {
     color: #d9dcd6;
 }
 
-/* Styling for the nav bar */
+/* Styling for the nav bar in header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,7 +46,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*  */
+/* Style for anchor tags for header nav */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -71,7 +74,7 @@ p {
     margin-left: 20px;
 }
 
-/* Styling for the article class benefits */
+/* Styling for the aside class benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,6 +118,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Style for the aside images */
 
 .benefit-lead img {
     display: block;
