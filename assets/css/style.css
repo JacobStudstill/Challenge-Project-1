@@ -20,11 +20,13 @@ header h1 {
     font-size: 48px;
 }
 
+/* This style replaced the span element for the 'seo' letters in the h1 header */
 em {
     font-style:normal;
     color: #d9dcd6;
 }
 
+/* Styling for the nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,15 +44,18 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/*  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Default size for paragraph element */
 p {
     font-size: 16px;
 }
 
+/* This is the style for the main photo on the website */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,12 +65,14 @@ p {
     background-position: center;
 }
 
+/* Styling for the section class content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for the article class benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -128,25 +135,8 @@ p {
     max-width: 150px;
 }
 
+/* Styling for the id search-engine-optimization */
 #search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,10 +151,40 @@ p {
     max-height: 200px;
 }
 
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for the id online-reputation-management */
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 #online-reputation-management img {
     float: right;
     margin-left: 25px;
     max-height: 200px;
+}
+
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for the id social-media-marketing*/
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 #social-media-marketing img {
@@ -173,21 +193,13 @@ p {
     max-height: 200px;
 }
 
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styling for the footer */
 footer {
     padding: 30px;
     clear: both;
