@@ -74,7 +74,7 @@ p {
     margin-left: 20px;
 }
 
-#main-content {
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,17 +83,17 @@ p {
     color: #ffffff;
 }
 
-#main-content h2 {
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#left {
+.left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
-#right {
+.right {
     float: right;
     margin-right: 25px;
     max-height: 200px;
